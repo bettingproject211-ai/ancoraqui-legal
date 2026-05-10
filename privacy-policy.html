@@ -8,7 +8,8 @@
   body { font-family: -apple-system, sans-serif; max-width: 800px; margin: 0 auto; padding: 40px 20px; color: #333; line-height: 1.7; }
   h1 { color: #1a1a1a; border-bottom: 2px solid #c9965a; padding-bottom: 12px; }
   h2 { color: #333; margin-top: 32px; }
-  .data { background: #f9f9f9; border-left: 4px solid #c9965a; padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 16px 0; }
+  .importante { background: #fff8f0; border-left: 4px solid #c9965a; padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 16px 0; }
+  .warning { background: #fff0f0; border-left: 4px solid #e53e3e; padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 16px 0; }
   footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 14px; }
 </style>
 </head>
@@ -16,68 +17,104 @@
 
 <h1>Privacy Policy — Ancora Qui</h1>
 <p><strong>Ultimo aggiornamento:</strong> Maggio 2025</p>
+<p><strong>Titolare del trattamento:</strong> Ancora Qui App — ancoraqui.app@gmail.com</p>
 
-<p>Ancora Qui è un'applicazione di supporto emotivo per persone che desiderano affrontare la dipendenza dal gioco d'azzardo. La tua privacy è fondamentale per noi.</p>
+<div class="warning">
+  <strong>⚠️ Disclaimer importante:</strong> Ancora Qui è uno strumento di supporto emotivo e non costituisce un servizio medico o psicologico. Non sostituisce in alcun modo il parere o il trattamento di un professionista della salute mentale. In caso di crisi chiama il SerD (800 274 274) o il 112.
+</div>
 
-<h2>1. Dati che raccogliamo</h2>
+<div class="importante">
+  <strong>Questa app è destinata esclusivamente a persone maggiorenni (18+).</strong>
+</div>
 
-<div class="data">
-  <strong>Dati salvati solo sul tuo dispositivo (non li vediamo mai):</strong>
+<h2>1. Chi siamo</h2>
+<p>Ancora Qui è un'applicazione mobile di supporto emotivo per persone che desiderano affrontare la dipendenza dal gioco d'azzardo. Il titolare del trattamento è raggiungibile all'indirizzo email: <strong>ancoraqui.app@gmail.com</strong></p>
+<p>Il creatore dell'app non è un medico, psicologo o professionista sanitario.</p>
+
+<h2>2. Base giuridica del trattamento</h2>
+<p>Il trattamento dei dati personali avviene sulla base di:</p>
+<ul>
+  <li><strong>Consenso esplicito</strong> dell'utente (Art. 6.1.a GDPR) — per i dati inseriti volontariamente</li>
+  <li><strong>Legittimo interesse</strong> (Art. 6.1.f GDPR) — per il corretto funzionamento del servizio</li>
+</ul>
+
+<h2>3. Dati che raccogliamo</h2>
+
+<div class="importante">
+  <strong>Dati salvati SOLO sul tuo dispositivo (non li vediamo mai):</strong>
   <ul>
     <li>Il tuo "perché" personale</li>
     <li>La data di inizio del percorso</li>
-    <li>La spesa giornaliera media che hai inserito</li>
-    <li>Il diario degli impulsi</li>
+    <li>La spesa giornaliera media inserita</li>
+    <li>Il diario degli impulsi e check-in</li>
     <li>Il mood giornaliero</li>
-    <li>Il nome opzionale che hai inserito</li>
+    <li>Il nome opzionale</li>
     <li>Il contatto di emergenza personale</li>
+    <li>Il tipo di dipendenza selezionato</li>
   </ul>
 </div>
 
-<div class="data">
+<div class="importante">
   <strong>Dati salvati sui nostri server (anonimi):</strong>
   <ul>
-    <li>I messaggi che pubblichi nella community "Voci" — completamente anonimi, senza nome reale né email</li>
+    <li>I messaggi pubblicati nel Forum — completamente anonimi, senza nome reale né email</li>
+    <li>Indirizzo IP al momento della pubblicazione (registrato automaticamente da Supabase)</li>
   </ul>
 </div>
 
-<h2>2. Cosa NON facciamo</h2>
+<h2>4. Periodo di conservazione dei dati</h2>
+<ul>
+  <li><strong>Dati locali:</strong> rimangono sul dispositivo finché l'app non viene disinstallata o l'utente non esegue il reset</li>
+  <li><strong>Post del Forum:</strong> conservati per 12 mesi dall'ultima attività, poi eliminati automaticamente</li>
+  <li><strong>Post segnalati:</strong> eliminati entro 72 ore dalla segnalazione se confermati inappropriati</li>
+</ul>
+
+<h2>5. Cosa NON facciamo</h2>
 <ul>
   <li>Non raccogliamo email, nome reale o dati identificativi</li>
   <li>Non creiamo account utente</li>
   <li>Non vendiamo dati a terzi</li>
   <li>Non usiamo i tuoi dati per pubblicità</li>
   <li>Non condividiamo dati con assicurazioni, datori di lavoro o autorità sanitarie</li>
+  <li>Non profilamiamo gli utenti</li>
 </ul>
 
-<h2>3. Servizi terzi</h2>
-<p>L'app utilizza:</p>
+<h2>6. Servizi terzi</h2>
 <ul>
-  <li><strong>Supabase</strong> — per la gestione dei messaggi anonimi nella community. <a href="https://supabase.com/privacy">Privacy Policy Supabase</a></li>
-  <li><strong>Expo</strong> — per le notifiche push. <a href="https://expo.dev/privacy">Privacy Policy Expo</a></li>
+  <li><strong>Supabase</strong> — database per i messaggi anonimi del Forum. Registra automaticamente gli IP delle richieste. <a href="https://supabase.com/privacy">Privacy Policy Supabase</a></li>
+  <li><strong>Expo / Expo Notifications</strong> — per le notifiche push. Trasmette un token anonimo del dispositivo. <a href="https://expo.dev/privacy">Privacy Policy Expo</a></li>
 </ul>
 
-<h2>4. Notifiche</h2>
-<p>L'app può inviare notifiche locali giornaliere. Puoi disattivarle in qualsiasi momento dalle impostazioni del tuo dispositivo.</p>
+<h2>7. Notifiche push</h2>
+<p>L'app può inviare notifiche locali e push giornaliere. Puoi disattivarle in qualsiasi momento dalle impostazioni del tuo dispositivo. Le notifiche non contengono dati personali.</p>
 
-<h2>5. Minori</h2>
-<p>Ancora Qui non è destinata a persone di età inferiore ai 18 anni.</p>
+<h2>8. Minori</h2>
+<p>Ancora Qui è destinata esclusivamente a persone di età pari o superiore a 18 anni. Non raccogliamo consapevolmente dati di minori. Se sei un genitore e ritieni che tuo figlio minorenne abbia utilizzato l'app, contattaci immediatamente a ancoraqui.app@gmail.com.</p>
 
-<h2>6. I tuoi diritti (GDPR)</h2>
-<p>Hai il diritto di:</p>
+<h2>9. I tuoi diritti (GDPR)</h2>
+<p>Ai sensi del GDPR hai il diritto di:</p>
 <ul>
-  <li>Cancellare tutti i tuoi dati locali usando la funzione "Reset" nell'app</li>
-  <li>Richiedere la cancellazione dei messaggi anonimi dalla community</li>
+  <li><strong>Accesso:</strong> richiedere copia dei tuoi dati</li>
+  <li><strong>Rettifica:</strong> correggere dati inesatti</li>
+  <li><strong>Cancellazione:</strong> eliminare i tuoi dati ("diritto all'oblio")</li>
+  <li><strong>Portabilità:</strong> ricevere i tuoi dati in formato leggibile</li>
+  <li><strong>Opposizione:</strong> opporti al trattamento</li>
+  <li><strong>Revoca del consenso:</strong> in qualsiasi momento</li>
 </ul>
+<p>Per i dati locali: usa la funzione "Reset" nell'app. Per i post del Forum: contatta ancoraqui.app@gmail.com indicando il nickname usato e la data approssimativa del post.</p>
+<p>Hai anche il diritto di presentare reclamo al <strong>Garante Privacy italiano</strong> (www.garanteprivacy.it).</p>
 
-<h2>7. Contatti</h2>
-<p>Per qualsiasi domanda sulla privacy scrivici a: <strong>ancoraqui.app@gmail.com</strong></p>
+<h2>10. Sicurezza</h2>
+<p>I dati del Forum sono conservati su Supabase con crittografia in transito (HTTPS). I dati personali non vengono mai trasmessi a server esterni.</p>
 
-<h2>8. Disclaimer medico</h2>
-<p>Ancora Qui è uno strumento di supporto emotivo e <strong>non sostituisce</strong> il parere o il trattamento di un professionista della salute mentale. In caso di crisi contatta il SerD al numero gratuito <strong>800 274 274</strong>.</p>
+<h2>11. Modifiche alla Privacy Policy</h2>
+<p>Eventuali modifiche saranno comunicate tramite aggiornamento dell'app. La data di "Ultimo aggiornamento" in cima a questa pagina indica la versione corrente.</p>
+
+<h2>12. Contatti</h2>
+<p>Per qualsiasi domanda sulla privacy: <strong>ancoraqui.app@gmail.com</strong></p>
 
 <footer>
-  <p>© 2025 Ancora Qui. Tutti i diritti riservati.</p>
+  <p>© 2025 Ancora Qui. Tutti i diritti riservati. | Conforme al Regolamento UE 2016/679 (GDPR)</p>
 </footer>
 
 </body>
